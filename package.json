@@ -1,7 +1,7 @@
 {
-  "name": "vue-jest",
+  "name": "vue-jest-modified",
   "version": "2.3.0",
-  "description": "Jest Vue transform",
+  "description": "Jest Vue transform modified for mock require.context",
   "main": "vue-jest.js",
   "files": [
     "vue-jest.js",
@@ -86,8 +86,16 @@
       }
     }
   },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eddyerburgh/vue-jest.git"
-  }
+    "url": "git+https://github.com/skyfore/vue-jest-modified.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyfore/vue-jest-modified/issues"
+  },
+  "homepage": "https://github.com/skyfore/vue-jest-modified#readme"
 }
